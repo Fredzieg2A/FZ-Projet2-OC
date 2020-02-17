@@ -1,0 +1,441 @@
+@media screen and (max-width: 800px)
+{
+	body
+	{
+    	font-family:  "Calibri Light", Arial, sans-serif;
+    	color: #404040;
+	}
+	#blocpage
+	{
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: flex-start;
+    	margin: auto;
+    	background-color: #f1f1f1;
+	}
+	.bloc h2
+	{
+		text-align: center;
+		color: #f7cb29;
+		background-color: #404040;
+		padding: 0.3em;
+		text-transform: uppercase;
+		margin-top: 0px;
+	}
+	#photo-profil
+	{
+    	overflow:hidden;
+    	width: 150px;
+    	height: 150px;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	-ms-border-radius: 50%;
+    	-o-border-radius: 50%;
+    	border-radius: 50%;
+    	margin: auto;
+	}
+	#photo-profil
+	{
+		margin-top: 2rem;
+	}
+	#nom
+	{
+		margin-top: 1em;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		text-align: center;
+        font-weight: bold;
+        padding-bottom: 0.3em;
+	}
+	#nom em
+	{
+		color: #f7cb29;
+		padding-right: 0.5em;
+		font-style: normal;
+	}
+	#nom span
+	{
+		color: #404040;
+		font-size: 0.65em;
+		text-transform: capitalize;
+	}
+	#blocgauche
+	{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		background-color: #f1f1f1;
+	}
+	.contacts ul
+	{
+		list-style-type: none;
+	}
+	.contacts:nth-child(1) p
+	{
+		column-count: 4;
+		text-align: center;
+	}
+	.contacts:nth-child(1) strong
+	{
+		text-align: center;
+		font-size: 1.2em;
+	}
+	.contacts:nth-child(1)
+	{
+		order: 3;
+	}
+	.contacts:nth-child(2)
+	{
+		order: 1;
+	}
+	.contacts:nth-child(3)
+	{
+		order: 2;
+	}
+	#blocdroit
+	{
+        background-color: #f7cb29;
+		padding-bottom: 0.3em;
+	}
+	 p
+	{
+		margin-left: 1em;
+		margin-right: 1em;
+		text-align: justify;
+	} 
+	h3, h3 + em
+	{
+        margin-left: 1em;		
+	}
+	mark
+    {
+    	background-color: #f1f1f1;
+		border-bottom: solid 1px #f7cb29;
+		padding-bottom: 0.3em;
+    }
+    #exp img
+    {
+    	width: 10%;
+    }
+    #exp em + strong
+    {
+    	margin-left: 1em
+    }
+}
+/*######################### Ecrans moyens #########################*/
+@media screen and (min-width: 801px) and (max-width: 1200px)
+{
+	body
+	{
+    	font-family:  "Calibri Light", Arial, sans-serif;
+    	color: #404040;
+	}
+	#photo-profil
+	{
+    	overflow:hidden;
+    	width: 150px;
+    	height: 150px;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	-ms-border-radius: 50%;
+    	-o-border-radius: 50%;
+    	border-radius: 50%;
+    	margin: auto;
+        margin-top: 5%;
+	}
+	#nom
+	{
+		margin-top: 1em;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		text-align: center;
+        font-weight: bold;
+        padding-bottom: 0.3em;
+	}
+	#nom em
+	{
+		color: #f7cb29;
+		padding-right: 0.5em;
+		font-style: normal;
+	}
+	#nom span
+	{
+		color: #404040;
+		font-size: 0.65em;
+		text-transform: capitalize;
+	}
+	p
+	{
+		text-align: justify;
+	    padding: 1em;
+	}
+	#blocpage
+	{
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: flex-start;
+    	margin: auto;
+    	background-color: #f1f1f1;
+	}
+	#blocgauche
+	{
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+		background-color: #f1f1f1;
+		flex-wrap: wrap;
+	}
+	.contacts:nth-child(1) p
+	{
+		text-align: center;
+	}
+	.contacts:nth-child(1) em
+	{
+		text-align: center;
+		font-size: 1.1em;
+		word-wrap: break-word;
+	}
+	.contacts:nth-child(1) 
+	{
+		order: 2;
+		flex: 1;
+		background-color: #f7cb29;
+		text-align: center;
+		box-shadow: 6px 1px 6px black;
+	}
+	.contacts:nth-child(2)
+	{
+		order: 1;
+		text-align: justify;
+	}
+	.contacts:nth-child(3)
+	{
+		order: 3;
+        flex: 1;
+        text-align: left;
+	}
+	.contacts:nth-child(4)
+	{
+		order: 4;
+        flex: 1.5;
+	}
+	h2
+	{
+		color: #f7cb29;
+		background-color: #404040;
+		text-align: center;
+        box-shadow: 6px 1px 6px black;
+        text-transform: uppercase;
+	}
+	#exp
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+	#exp h3
+	{		
+		color: #f7cb29;
+		text-shadow: 6px 1px 6px black;
+	}
+    #exp strong
+    {
+        margin-left: 3em;
+        padding-bottom : 0.2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #exp em
+    {
+    	margin-left: 3em;
+    	text-align: center;
+    	padding-bottom: 0.3em
+    }
+    #exp ul
+    {
+        flex-wrap: wrap;
+        margin: 0px;
+        margin-left: 2em;
+        margin-bottom: 1em;
+        list-style-type: none;
+    }
+    #compet h3
+    {
+    	margin-left: 3em;
+    }
+    #compet ul
+    {
+        flex-wrap: wrap;
+        margin: 0px;
+        margin-left: 2em;
+        margin-bottom: 1em;
+        list-style-type: none;
+    }
+	mark
+    {
+    	background-color: #f1f1f1;
+		border-bottom: solid 1px #f7cb29;
+		padding-bottom: 0.3em;
+    }
+}
+/*######################### Grands Ã©crans #########################*/
+@media screen and (min-width: 1200px)
+{
+	body
+	{
+    	font-family:  "Calibri Light", Arial, sans-serif;
+    	color: black;
+	}
+	#blocpage
+	{
+		display: flex;
+		flex-direction: row;
+        align-items: baseline;
+        width: 1200px;
+        margin: auto;
+        border: solid 2px black;
+	}
+	header
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 20rem;
+	}
+	#photo-profil img
+	{
+    	overflow:hidden;
+    	width: 200px;
+    	height: 200px;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	-ms-border-radius: 50%;
+    	-o-border-radius: 50%;
+    	border-radius: 50%;
+    	margin: 40%;
+	}
+	aside
+	{
+    	width: 30%;
+    	background-color: #f7cb29;	
+    	padding-bottom: 8rem;	
+	}
+	aside p
+	{
+		padding: 2em;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+    #blocgauche
+    {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: baseline;
+    	width: 100%;
+    	background-color: #f7cb29;
+    }
+    .contacts
+    {
+    	width: 100%;
+    }
+    .contacts h2
+    {
+    	background-color: #404040;
+    	color: #f7cb29;
+    	text-align: center;
+    	padding: 0.3rem;
+    	text-transform: uppercase;
+    }
+    .contacts p
+    {
+        padding: 0.5rem;
+        text-align: justify;	
+    }
+    .contacts em
+    {
+    	font-size: 1.2rem;
+    	margin-left: 1.5rem;
+    }
+    .contacts strong
+    {
+    	font-size: 1rem;
+    	margin-left: 1.5rem;
+    }
+    #blocdroit
+    {
+    	display: flex;
+    	flex-direction: column;
+    	vertical-align: baseline;
+    	width: 90%;
+    	margin-left: 1rem;
+    }
+    section h2
+    {
+    	margin-left: 4rem;
+    	border-bottom: solid 1px #f7cb29;
+    	width: 90%;
+    	text-transform: uppercase;
+    	padding-bottom: 0.3em;
+    }
+    #nom
+	{		
+		margin-left: 12rem;
+		font-size: 2.5rem;
+		text-transform: uppercase;
+        font-weight: bold;
+	}
+	#nom em
+	{
+		color: #f7cb29;
+		padding-right: 0.6rem;
+		font-style: normal;
+	}
+	#nom span
+	{
+		color: #404040;
+		font-size: 0.8em;
+		text-transform: capitalize;
+
+	}
+    mark
+    {
+    	background-color: white;
+		border-bottom: solid 1px #f7cb29;
+		padding-bottom: 0.3rem;
+    }
+    #exp img
+    {
+    	width: 10%;
+    }
+    #exp
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100°%;
+        flex-wrap: wrap;
+        background: url("../Images/Experience.png") no-repeat;
+    }
+    #exp strong
+    {
+        margin: auto;
+        padding-bottom : 0.2rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #exp ul
+    {
+        flex-wrap: wrap;
+        margin: 0px;
+        margin-left: 22em;
+        margin-bottom: 1rem;
+        list-style-type: none;
+    }
+    #compet
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100°%;
+        flex-wrap: wrap;
+        background: url("../Images/Competences.png") no-repeat;
+    }
+}
