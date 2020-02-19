@@ -413,7 +413,7 @@
         flex-direction: row;
         width: 100°%;
         flex-wrap: wrap;
-        background: url("../Images/Experience.png") no-repeat;
+        background: url("Experience.png") no-repeat;
     }
     #exp strong
     {
@@ -436,6 +436,6 @@
         flex-direction: column;
         width: 100°%;
         flex-wrap: wrap;
-        background: url("../Images/Competences.png") no-repeat;
+        background: url("Competences.png") no-repeat;
     }
 }
