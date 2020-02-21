@@ -192,6 +192,7 @@ mark{
 	#blocpage{
 		flex-direction: column;
         width: 1200px;
+        height: auto;
         border: solid 1px black;
         background-color: white;
 	}
@@ -271,7 +272,7 @@ mark{
     #exp{
     	display: flex;
     	flex-direction: row; 
-    	width: 70%;    
+    	width: auto;    
         flex-wrap: wrap;
         background: url("Experience.png") no-repeat;
     }
@@ -303,7 +304,7 @@ mark{
     #compet{
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: auto;
         flex-wrap: wrap;
         background: url("Competences.png") no-repeat;
     }
