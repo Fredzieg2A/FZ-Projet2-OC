@@ -42,7 +42,7 @@ body{
 	text-transform: capitalize;
 }
 
-section1 h2, section2 h2{
+.bloc h2{
 	text-align: center;
 	color: #f7cb29;
 	background-color: #404040;
@@ -215,7 +215,7 @@ mark{
 		width: fit-content;
 	    margin-top: -180px;
 	}
-	section1{
+	.bloc{
 		display: flex;
 		flex-direction: column;
         width: 300px;
@@ -224,7 +224,7 @@ mark{
     	padding-bottom: 12rem;	
 	}
 
-	section1 p{
+	.bloc p{
 		margin-left: 1rem;
 		margin-right: 1rem;
 	}
@@ -246,14 +246,14 @@ mark{
 		order: 4;
 	}
 
-    section2{
+    #exp, #compet{
     	position: absolute;
     	width: 900px;
     	margin-top: 300px;
     	margin-left: 320px;	
     }
 
-    section2 h2{
+    #exp h2, #compet h2{
     	margin-left: 4rem;
     	border-bottom: solid 1px #f7cb29;
         width: 100%;
