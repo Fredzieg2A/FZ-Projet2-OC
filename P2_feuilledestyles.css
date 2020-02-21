@@ -221,7 +221,7 @@ mark{
         width: 300px;
     	background-color: #f7cb29;	
     	margin-bottom: 0;
-    	padding-bottom: 12rem;	
+    	padding-bottom: 12rem;
 	}
 
 	.bloc p{
@@ -246,17 +246,10 @@ mark{
 		order: 4;
 	}
 
-    #exp, #compet{
-    	position: absolute;
-    	width: 900px;
-    	margin-top: 300px;
-    	margin-left: 320px;	
-    }
-
     #exp h2, #compet h2{
     	margin-left: 4rem;
     	border-bottom: solid 1px #f7cb29;
-        width: 100%;
+        width: 90%;
     	text-transform: uppercase;
     	padding-bottom: 0.3em;
     	color: black;
@@ -271,7 +264,9 @@ mark{
     #exp{
     	display: flex;
     	flex-direction: row; 
-    	width: 90%;    
+    	margin-top: -1400px;
+    	margin-left: 320px;	
+    	width: 70%;    
         flex-wrap: wrap;
         background: url("Experience.png") no-repeat;
     }
@@ -301,8 +296,10 @@ mark{
     }
 
     #compet{
-        width: 80%;
+        width: 70%;
+        margin-left: 320px;
         flex-wrap: wrap;
         background: url("Competences.png") no-repeat;
+        padding-bottom: 2.9rem;
     }
 }
