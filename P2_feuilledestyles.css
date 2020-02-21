@@ -271,7 +271,7 @@ mark{
     #exp{
     	display: flex;
     	flex-direction: row; 
-    	width: 100%;    
+    	width: 70%;    
         flex-wrap: wrap;
         background: url("Experience.png") no-repeat;
     }
@@ -303,7 +303,7 @@ mark{
     #compet{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 70%;
         flex-wrap: wrap;
         background: url("Competences.png") no-repeat;
     }
