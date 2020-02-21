@@ -137,7 +137,7 @@ mark{
 
 /*################################################## Tablettes ##################################################*/
 
-@media screen and (min-width: 640px) and (max-width: 1023px)
+@media screen and (min-width: 640px) and (max-width: 1082px)
 {
 
 	#blocgauche{
@@ -186,13 +186,12 @@ mark{
 
 /*################################################## Desktop ##################################################*/
 
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1083px)
 {
 
 	#blocpage{
 		flex-direction: column;
         width: 1200px;
-        height: auto;
         border: solid 1px black;
         background-color: white;
 	}
@@ -251,13 +250,13 @@ mark{
     	position: absolute;
     	margin-top: 300px;
     	margin-left: 320px;
-    	width: 70%;   	
+    	width: 100%;   	
     }
 
     section2 h2{
     	margin-left: 4rem;
     	border-bottom: solid 1px #f7cb29;
-    	width: 70%;
+        width: 70%;
     	text-transform: uppercase;
     	padding-bottom: 0.3em;
     	color: black;
@@ -272,7 +271,7 @@ mark{
     #exp{
     	display: flex;
     	flex-direction: row; 
-    	width: auto;    
+    	width: 70%;    
         flex-wrap: wrap;
         background: url("Experience.png") no-repeat;
     }
@@ -302,9 +301,7 @@ mark{
     }
 
     #compet{
-        display: flex;
-        flex-direction: column;
-        width: auto;
+        width: 70%;
         flex-wrap: wrap;
         background: url("Competences.png") no-repeat;
     }
