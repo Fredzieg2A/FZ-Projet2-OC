@@ -15,19 +15,22 @@ body{
 } 
 
 #photoprofil{
-	display: flex;
-	margin: auto;
+	display:flex;
+	width: 60%;
 	padding-top: 2em;
 }
-
+img{
+	width: 50%;
+	height: 50%;
+	padding-right: 0.5em;
+	padding-bottom: 1.5em;
+}
 #nom{
-	font-size: 2.5em;
+	font-size: 1.3em;
 	text-transform: uppercase;
-	text-align: center;
     font-weight: bold;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin:auto
 }
 
 #nom em{
@@ -146,7 +149,18 @@ mark{
 		background-color: #f1f1f1;
 		flex-wrap: wrap;
 	}
-
+    #photoprofil{
+	    width: 75%;
+    }
+    img{
+	    padding-right: 1em;
+	    margin-left: 1em;
+	    width: auto;
+	    height: 100
+    }
+    #nom{
+	    font-size: 2.5em;
+    }
 	.contacts:nth-child(1){
 		order: 2;
 		flex: 1;
@@ -208,12 +222,15 @@ mark{
 
 	img{
 		margin: auto;
+		width: auto;
+	    height: 100%;
 	}
 
 	#nom{
 		margin-left: 350px;
 		width: fit-content;
 	    margin-top: -180px;
+	    font-size: 2.5em;
 	}
 	.bloc{
 		display: flex;
