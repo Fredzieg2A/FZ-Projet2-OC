@@ -15,9 +15,9 @@ body{
 } 
 
 #photoprofil{
-	position: absolute;
-	top: 1.5em;
-	margin-left: 35%;
+	display: flex;
+	margin: auto;
+	padding-top: 2em;
 }
 
 #nom{
@@ -25,7 +25,7 @@ body{
 	text-transform: uppercase;
 	text-align: center;
     font-weight: bold;
-    padding-top: 12rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     margin:auto
 }
@@ -51,12 +51,6 @@ section1 h2, section2 h2{
 	margin: auto;
 }
 
-.contacts ul{
-	list-style-type: none;
-	font-size: 1em;
-	text-align: left;
-}
-
 a{
 	text-decoration: none;
 	color: blue;
@@ -67,6 +61,12 @@ a{
 a:hover{
 	text-decoration: underline;
 	color: purple;
+}
+
+.contacts ul{
+	list-style-type: none;
+	font-size: 1em;
+	text-align: left;
 }
 
 p{
@@ -92,7 +92,6 @@ mark{
 }
 
 .contacts:nth-child(1) p {
-	order: 4;
 	text-align: center;
 }
 
@@ -121,6 +120,14 @@ mark{
 	font-style: italic;
 }
 
+#exp>h3{
+    	
+		border-bottom: solid 1px #f7cb29;
+		padding-bottom: 0.3rem;
+		margin-left: 10%;
+		margin-right: 10%;
+}
+
 #exp strong{
 	margin-top: 0.5em;
 	margin-bottom: 0;
@@ -128,73 +135,16 @@ mark{
 	font-size: 1rem;
 }
 
-#exp>h3{
-    	background-color: #f1f1f1;
-		border-bottom: solid 1px #f7cb29;
-		padding-bottom: 0.3rem;
-		margin-left: 10%;
-		margin-right: 10%;
-}
-
-
 /*################################################## Tablettes ##################################################*/
 
 @media screen and (min-width: 640px) and (max-width: 1023px)
 {
-	#photoprofil{
-		position: absolute;
-		width: 150px;
-		height: 150px;
-		top: 2.5em;
-		margin-left: 40%;
-	}
-
-	#nom{
-		margin-top: 0;
-		font-size: 2.5em;
-		text-transform: uppercase;
-		text-align: center;
-        font-weight: bold;
-        padding-bottom: 0.3em;
-	}
-
-	#nom em{
-		color: #f7cb29;
-		padding-right: 0.5em;
-		font-style: normal;
-	}
-
-	#nom span{
-		color: #404040;
-		font-size: 0.65em;
-		text-transform: capitalize;
-	}
-
-	p{
-		text-align: justify;
-	    padding: 1em;
-	}
-
-	#blocpage{
-    	display: flex;
-    	flex-direction: column;
-    	justify-content: flex-start;
-    	margin: auto;
-    	background-color: #f1f1f1;
-	}
 
 	#blocgauche{
-		display: flex;
 		flex-direction: row;
 		margin: auto;
 		background-color: #f1f1f1;
 		flex-wrap: wrap;
-	}
-
-	.contacts:nth-child(1) p{
-		text-align: center;
-		margin: 0;
-		padding: 0.4em;
 	}
 
 	.contacts:nth-child(1){
@@ -232,12 +182,6 @@ mark{
         box-shadow: 6px 1px 6px black;
         text-transform: uppercase;
 	}
-
-	mark{
-    	background-color: #f1f1f1;
-		border-bottom: solid 1px #f7cb29;
-		padding-bottom: 0.3em;
-    }
 }
 
 /*################################################## Desktop ##################################################*/
@@ -246,50 +190,45 @@ mark{
 {
 
 	#blocpage{
-		display: flex;
-		flex-direction: row;
-        align-items: baseline;
+		flex-direction: column;
         width: 1200px;
-        margin: auto;
-        border: solid 2px black;
+        border: solid 1px black;
         background-color: white;
 	}
 
-	header{
-		position: absolute;
-		height: 17rem;
-		background-color: #f7cb29;
-		width: 300px;
-	}
-
 	#photoprofil{
-		margin-top: 15%;
-		margin-left: 25%;
+		display: flex;
+		flex-direction: column;
+		background-color: #f7cb29;	
+		width: 300px;
+		height: 200px;	
+		margin: 0;
+		padding-bottom: 50px;
 	}
 
+	img{
+		margin: auto;
+	}
+
+	#nom{
+		margin-left: 350px;
+		width: fit-content;
+	    margin-top: -180px;
+	}
 	section1{
 		display: flex;
 		flex-direction: column;
-		vertical-align: baseline;
-    	position: absolute;
-    	margin-top: 17rem;
     	width: 300px;
     	background-color: #f7cb29;	
     	margin-bottom: 0;
-    	padding-bottom: 6rem;	
+    	padding-bottom: 12rem;	
 	}
 
 	section1 p{
-		padding: 1em;
 		margin-left: 1rem;
 		margin-right: 1rem;
 	}
 
-	.contacts:nth-child(1) p{
-		text-align: center;
-		margin: 0;
-		padding: 0.5em;
-	}
 
 	.contacts:nth-child(1){
 		order: 1;
@@ -308,17 +247,16 @@ mark{
 	}
 
     section2{
-    	display: flex;
-    	flex-direction: column;
-    	margin-top: 20rem;
-    	margin-left: 310px;
+    	position: absolute;
+    	margin-top: 300px;
+    	margin-left: 320px;
     	width: 70%;   	
     }
 
     section2 h2{
     	margin-left: 4rem;
     	border-bottom: solid 1px #f7cb29;
-    	width: 90%;
+    	width: 70%;
     	text-transform: uppercase;
     	padding-bottom: 0.3em;
     	color: black;
@@ -326,61 +264,40 @@ mark{
 	    background-color: white;
     }
 
-    #nom{		
-		margin-left: 25rem;
-		margin-top: -6rem;
-		font-size: 2.5rem;
-		width: 100%;
-		text-transform: uppercase;
-        font-weight: bold;
-	}
-
-	#nom em{
-		color: #f7cb29;
-		padding-right: 1rem;
-		font-style: normal;
-	}
-
-	#nom span{
-		color: #404040;
-		font-size: 1.5rem;
-	}
-
     mark{
     	background-color: white;
-		border-bottom: solid 1px #f7cb29;
-		padding-bottom: 0.3rem;
     }
 
     #exp{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+    	display: flex;
+    	flex-direction: row; 
+    	width: 100%;    
         flex-wrap: wrap;
         background: url("Experience.png") no-repeat;
     }
 
     #exp h3{
         margin-left: 0;
+        margin-right: 0;
         text-align: left;
         background-color: white;
         border: none;
+        padding: 0;
     }
     
-    #exp strong{
-        margin-left: 24rem;
-        width: 90%;
-        padding-left: 0;
-        margin-top: 0;
+    #exp strong {
         background-color: white;
+        width: 40%;
+        margin: auto;
+        padding-top: 1.5em; 
+        flex-wrap: wrap;
+        
     }
 
     #exp ul{
         flex-wrap: wrap;
-        margin: 0;
-        margin-left: 22em;
-        margin-bottom: 1rem;
         list-style-type: none;
+        margin-left: 25rem;
     }
 
     #compet{
