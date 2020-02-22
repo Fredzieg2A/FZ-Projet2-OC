@@ -46,7 +46,7 @@ img{
 	text-transform: capitalize;
 }
 
-.bloc h2{
+section1 h2{
 	text-align: center;
 	color: #f7cb29;
 	background-color: #404040;
@@ -71,6 +71,11 @@ a:hover{
 	list-style-type: none;
 	font-size: 1em;
 	text-align: left;
+}
+
+#imagesloisirs	{
+	width: 0;
+	height: 0;
 }
 
 p{
@@ -115,6 +120,15 @@ mark{
 	order: 3;
 }
 
+section2 h2{
+	text-align: center;
+	color: #f7cb29;
+	background-color: #404040;
+	padding: 0.3rem;
+	text-transform: uppercase;
+	margin: auto;
+}
+
 #exp h3{
 	text-align: center;
 	margin-top: 1em;
@@ -137,6 +151,13 @@ mark{
 	margin-bottom: 0;
 	margin-left: 0.5em;
 	font-size: 1rem;
+}
+#compet>h3{	
+	border-bottom: solid 1px #f7cb29;
+	padding-bottom: 0.3rem;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
 }
 
 /*################################################## Tablettes ##################################################*/
@@ -195,6 +216,11 @@ mark{
         margin: 1rem;
 	}
 
+	#imagesloisirs	{
+		width: 0;
+		height: 0;
+	}
+
 	#exp h2{
 		color: #f7cb29;
 		background-color: #404040;
@@ -238,7 +264,7 @@ mark{
 	    margin-top: -180px;
 	    font-size: 2.5em;
 	}
-	.bloc{
+	section1{
 		display: flex;
 		flex-direction: column;
         width: 300px;
@@ -247,7 +273,7 @@ mark{
     	padding-bottom: 12rem;
 	}
 
-	.bloc p{
+	section1 p{
 		margin-left: 1rem;
 		margin-right: 1rem;
 	}
@@ -266,6 +292,14 @@ mark{
 
 	.contacts:nth-child(4){
 		order: 4;
+	}
+
+	#imagesloisirs	{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		padding-top: 1em;
 	}
 
     #exp h2, #compet h2{
@@ -324,4 +358,9 @@ mark{
         background: url("Competences.png") no-repeat;
         padding-bottom: 2.9rem;
     }
+    #compet h3{
+    	text-align: left;
+    	border: none;
+    }
+
 }
